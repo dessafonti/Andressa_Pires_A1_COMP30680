@@ -1,0 +1,74 @@
+body {
+  background-color: #ffffff;
+}
+
+ul {
+  font-family: ui-monospace;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  border-radius: 10px;
+  background-color: #a4a8ab;
+  border: 1px solid #a46f5b;
+}
+
+li {
+  padding: 8px 0;
+  margin: 20px 60px 20px 60px;
+  display: inline;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+#header {
+  font-size: 40px;
+  text-align: center;
+  font-style: normal;
+  font-family: ui-monospace;
+  color: #a4a8ab;
+  background-color: #ffffff;
+}
+
+#section {
+  font-family: cursive;
+  font-style: normal;
+  display: inline;
+  font-size: 15px;
+  color: #a4a8ab;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+#footer {
+  font-size: 15px;
+  text-align: center;
+  font-style: normal;
+  font-family: ui-monospace;
+  color: #a4a8ab;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.end_page {
+  width: 100px;
+  margin-bottom: 50px;
+  
+}
+
+li:hover {
+  font-size: larger;
+} /* code source: :hover selector in https://www.w3schools.com/cssref/sel_hover.php *\

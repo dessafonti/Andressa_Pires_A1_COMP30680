@@ -1,0 +1,128 @@
+body {
+  background-color: #ffffff;
+}
+
+ul {
+  font-family: ui-monospace;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  border-radius: 10px;
+  background-color: #a4a8ab;
+  border: 1px solid #a46f5b;
+}
+
+li {
+  padding: 8px 0;
+  margin: 20px 60px 20px 60px;
+  display: inline;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+audio {
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;
+    -moz-box-shadow: 2px 2px 4px 0px #a4a8ab;
+    -webkit-box-shadow:  2px 2px 4px 0px #a4a8ab;
+    box-shadow: 2px 2px 4px 0px  #a4a8ab;
+    -moz-border-radius:7px 7px 7px 7px;
+    -webkit-border-radius:7px 7px 7px 7px ;
+    border-radius:7px 7px 7px 7px ;
+    margin: auto;
+    width: 100px;
+    height: auto;
+}
+    
+audio:hover, audio:focus, audio:active {
+    -webkit-box-shadow: 15px 15px 20px  whitesmoke;
+    -moz-box-shadow: 15px 15px 20px  whitesmoke;
+    box-shadow: 15px 15px 20px  whitesmoke;
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    transform:scale(1.05);
+    }
+/* code source: HTML5 Audio CSS style in  https://codepen.io/dcastanos/pen/BapxGM */
+
+#about_song {
+        color: #a4a8ab;
+        font-family: ui-monospace;
+        text-align: left;
+        font-style: italic;
+        font-size: 15px;
+}
+
+#header {
+  font-size: 40px;
+  text-align: center;
+  font-style: normal;
+  font-family: ui-monospace;
+  color: #a4a8ab;
+  background-color: #ffffff;
+}
+
+
+#section {font-size: 20px;
+  color: #a4a8ab;
+  font-weight: 200;
+  text-align: justify;
+  padding: 20px;
+  margin: 30px 180px 10px 180px; 
+  background-color:whitesmoke;
+  border: 1px solid #a46f5b;
+  border-radius: 10px;
+  font-family: ui-monospace;
+}
+
+
+p {
+  font-family: ui-monospace;
+  font-style: normal;
+  font-size: 20px;
+  color: #a4a8ab;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+#image {
+  width: 70px;
+  height: 150px;
+  display: flex;
+  margin-left: 540px;
+  margin-top: 50px;
+}
+
+#footer {
+    font-size: 15px;
+    text-align: center;
+    font-style: normal;
+    font-family: ui-monospace;
+    color: #a4a8ab;
+  }
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .end_page {
+    margin-top: 30px;
+    width: 100px;
+    margin-bottom: 45px;
+    
+  }
+  
+  li:hover {
+    font-size: larger;
+  } /* code source: :hover selector in https://www.w3schools.com/cssref/sel_hover.php *\
+  
+  
+  

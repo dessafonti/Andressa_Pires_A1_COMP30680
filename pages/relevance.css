@@ -1,0 +1,108 @@
+body {
+  background-color: #ffffff;
+}
+
+ul {
+  font-family: ui-monospace;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  border-radius: 10px;
+  background-color: #a4a8ab;
+  border: 1px solid #a46f5b;
+}
+
+li {
+  padding: 8px 0;
+  margin: 20px 60px 20px 60px;
+  display: inline;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+h2 {
+  font-size: 20px;
+  color: #a4a8ab;
+  font-weight: 200;
+  text-align: justify;
+  padding: 20px;
+  margin: 30px 180px 10px 180px;
+  background-color: whitesmoke;
+  border: 1px solid #a46f5b;
+  border-radius: 10px;
+}
+
+#video {
+  position: relative;
+  padding-bottom: 45%; 
+  overflow: hidden;
+  margin-left: 320px;
+}
+
+#video iframe { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  height: 100%;
+  display:block;
+}
+/* code source: Embed a YouTube Video in HTML and Make it Responsive (CSS included) https://www.youtube.com/watch?v=9YffrCViTVk */
+
+#header {
+  font-size: 40px;
+  text-align: center;
+  font-style: normal;
+  font-family: ui-monospace;
+  color: #a4a8ab;
+  background-color: #ffffff;
+}
+
+
+#section {font-size: 20px;
+color: #a4a8ab;
+font-weight: 200;
+text-align: justify;
+padding: 20px;
+margin: 30px 180px 10px 180px;
+background-color: whitesmoke;
+border: 1px solid #a46f5b;
+border-radius: 10px;
+}
+
+p
+{
+  font-size: 20px;
+  color: #a4a8ab;
+  font-weight: 200;
+  text-align: justify;
+  font-family: ui-monospace;
+}
+
+
+
+#footer {
+  font-size: 15px;
+  text-align: center;
+  font-style: normal;
+  font-family: ui-monospace;
+  color: #a4a8ab;
+}
+
+
+.end_page {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  width: 100px;
+  
+}
+
+li:hover {
+  font-size: larger;
+} /* code source: :hover selector in https://www.w3schools.com/cssref/sel_hover.php *\
+

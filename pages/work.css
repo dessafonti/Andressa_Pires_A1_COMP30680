@@ -1,0 +1,124 @@
+body {
+  background-color: #ffffff;
+}
+
+ul {
+  font-family: ui-monospace;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  border-radius: 10px;
+  background-color: #a4a8ab;
+  border: 1px solid #a46f5b;
+}
+
+li {
+  padding: 8px 0;
+  margin: 20px 60px 20px 60px;
+  display: inline;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+#header {
+  font-size: 40px;
+  text-align: center;
+  font-style: normal;
+  font-family: ui-monospace;
+  color: #a4a8ab;
+  background-color: #ffffff;
+}
+
+h2 {
+  font-size: 20px;
+  color: #a4a8ab;
+  font-weight: 200;
+  text-align: justify;
+  padding: 20px;
+  margin: 30px 180px 10px 180px;
+  background-color: whitesmoke;
+  border: 1px solid #a46f5b;
+  border-radius: 10px;
+}
+
+p
+{ font-size: 30px;
+  font-weight: 200;
+  color: #a4a8ab;
+  text-align: center;
+  padding: 20px;
+  margin: 30px 180px 10px 180px;
+
+}
+
+#list { font-size: 20px;
+  color: #a4a8ab;
+  text-align: center;
+  padding: 20px;
+  margin: 30px 180px 10px 180px;
+  background-color: whitesmoke;
+  border: 1px solid #a46f5b;
+  border-radius: 10px;}
+  
+  
+
+ul.book {
+  background-color: whitesmoke;
+  list-style: none;
+  border: none;
+}
+
+li.book {
+  font-weight: 100;
+  text-align: center;
+  display: block;
+}
+
+#footer {
+    font-size: 15px;
+    text-align: center;
+    font-style: normal;
+    font-family: ui-monospace;
+    color: #a4a8ab;
+  }
+
+ 
+  .cover {  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }      /* code source: FLEXBOX CSS! Como posicionar elementos na página web - parte 1 
+  in https://www.youtube.com/watch?v=KbjLtEgmZ_E */
+ 
+.book_cover {
+    border-radius: 30px;
+    width: 180px;
+    height: auto;
+    display: flex; 
+    margin: 3px auto;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .end_page {
+    margin-top: 30px;
+    width: 100px;
+    margin-bottom: 45px;
+    
+  }
+  
+  li:hover {
+    font-size: larger;
+  } /* code source: :hover selector in https://www.w3schools.com/cssref/sel_hover.php *\
+  
+  
+  
